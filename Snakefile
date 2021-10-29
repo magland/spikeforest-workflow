@@ -1,11 +1,11 @@
 RECORDINGS = [
+    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.001_synth',
+    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.002_synth',
+    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.003_synth',
     'PAIRED_KAMPFF.paired_kampff.2014_11_25_Pair_3_0',
     'PAIRED_KAMPFF.paired_kampff.2015_09_03_Pair_9_0A',
     'PAIRED_KAMPFF.paired_kampff.2015_09_03_Pair_9_0B',
-    'PAIRED_KAMPFF.paired_kampff.c14',
-    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.001_synth',
-    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.002_synth',
-    'SYNTH_MAGLAND.synth_magland_noise10_K10_C4.003_synth'
+    'PAIRED_KAMPFF.paired_kampff.c14'
 ]
 
 SPIKEFOREST_RECORDINGS_REPO = "https://github.com/flatironinstitute/spikeforest_recordings"
@@ -40,7 +40,7 @@ rule prepare_spikesortingview_data:
 rule process_recording:
     input: rec=RECORDINGS_DIR + '/{recording}.json', ssvd=SPIKESORTINGVIEW_DATA_DIR + '/{recording}.spikesortingview.h5'
     output: RECORDINGS_PROCESSED_DIR + '/{recording}.json'
-    shell: "FIGURL_CHANNEL=flatiron1 python scripts/process_recording.py {input} {output}"
+    shell: "FIGURL_CHANNEL=spikeforest python scripts/process_recording.py {input} {output}"
 
 rule clone_recordings:
     output: directory(SPIKEFOREST_RECORDINGS_DIR)
