@@ -1,3 +1,9 @@
 | Recording      |
 | ----------- |
 | [paired_kampff/2014_11_25_Pair_3_0](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=4b3a5d7e7a96daf6f4a3b4a841fb647918f67460&channel=flatiron1&label=paired_kampff/2014_11_25_Pair_3_0%20ground%20truth) |
+| [paired_kampff/2015_09_03_Pair_9_0A](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=2ada57c177f03021930cf40500bf1428024b859d&channel=flatiron1&label=paired_kampff/2015_09_03_Pair_9_0A%20ground%20truth) |
+| [paired_kampff/2015_09_03_Pair_9_0B](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=770273e61794bd7d8a427058fb5f7327f323673a&channel=flatiron1&label=paired_kampff/2015_09_03_Pair_9_0B%20ground%20truth) |
+| [paired_kampff/c14](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=0a4390266cb08b27a95e380b9277e874e04dbfec&channel=flatiron1&label=paired_kampff/c14%20ground%20truth) |
+| [synth_magland_noise10_K10_C4/001_synth](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=e4ae0ba5e48e2c6360dae78cb297f6ed925d9fa6&channel=flatiron1&label=synth_magland_noise10_K10_C4/001_synth%20ground%20truth) |
+| [synth_magland_noise10_K10_C4/002_synth](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=6aa6d947101eea72577a7a6c3bdc2ea5d12d11ad&channel=flatiron1&label=synth_magland_noise10_K10_C4/002_synth%20ground%20truth) |
+| [synth_magland_noise10_K10_C4/003_synth](https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=d337174a2c872cc968157156c6b3b6a37931c054&channel=flatiron1&label=synth_magland_noise10_K10_C4/003_synth%20ground%20truth) |
