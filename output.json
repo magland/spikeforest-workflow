@@ -1,5 +1,44 @@
 [
     {
+        "name": "001_synth",
+        "studyName": "synth_magland_noise10_K10_C4",
+        "studySetName": "SYNTH_MAGLAND",
+        "sampleRateHz": 30000.0,
+        "numChannels": 4,
+        "durationSec": 600.0,
+        "numTrueUnits": 10,
+        "spikeSign": -1,
+        "recordingUri": "sha1://f060669aadaa0f8ebe296bf72895df3899f8cf45/001_synth.json",
+        "sortingTrueUri": "sha1://d26dfd7798286d0696d0707b8202631914b193d7/001_synth.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=7fc5acb4b0381e472cf5564aa4e6c6a284c92edb&channel=spikeforest&label=synth_magland_noise10_K10_C4/001_synth%20ground%20truth"
+    },
+    {
+        "name": "002_synth",
+        "studyName": "synth_magland_noise10_K10_C4",
+        "studySetName": "SYNTH_MAGLAND",
+        "sampleRateHz": 30000.0,
+        "numChannels": 4,
+        "durationSec": 600.0,
+        "numTrueUnits": 10,
+        "spikeSign": -1,
+        "recordingUri": "sha1://94bbae431c1ae18bb1d3dbb2d295e833c15a24c8/002_synth.json",
+        "sortingTrueUri": "sha1://9190d5ee145f897dbb1c95c14e350690afcd93c9/002_synth.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=07a7389cfde0158119c8f7d3b6647cfb94854727&channel=spikeforest&label=synth_magland_noise10_K10_C4/002_synth%20ground%20truth"
+    },
+    {
+        "name": "003_synth",
+        "studyName": "synth_magland_noise10_K10_C4",
+        "studySetName": "SYNTH_MAGLAND",
+        "sampleRateHz": 30000.0,
+        "numChannels": 4,
+        "durationSec": 600.0,
+        "numTrueUnits": 10,
+        "spikeSign": -1,
+        "recordingUri": "sha1://5cd49e408506bec769e910e548d4b1e90d89adce/003_synth.json",
+        "sortingTrueUri": "sha1://4af023c4d4b72610c0f9aca4f3e036c29f47a848/003_synth.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=6c671c6085e6b7f5f40394b279e7e1148beb9521&channel=spikeforest&label=synth_magland_noise10_K10_C4/003_synth%20ground%20truth"
+    },
+    {
         "name": "2014_11_25_Pair_3_0",
         "studyName": "paired_kampff",
         "studySetName": "PAIRED_KAMPFF",
@@ -10,6 +49,45 @@
         "spikeSign": -1,
         "recordingUri": "sha1://a205f87cef8b7f86df7a09cddbc79a1fbe5df60f/2014_11_25_Pair_3_0.json",
         "sortingTrueUri": "sha1://c656add63d85a17840980084a1ff1cdc662a2cd5/2014_11_25_Pair_3_0.firings_true.json",
-        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=4b3a5d7e7a96daf6f4a3b4a841fb647918f67460&channel=flatiron1&label=paired_kampff/2014_11_25_Pair_3_0%20ground%20truth"
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=b126863fd7eb554813353b906f7e229a2eb3c3fe&channel=spikeforest&label=paired_kampff/2014_11_25_Pair_3_0%20ground%20truth"
+    },
+    {
+        "name": "2015_09_03_Pair_9_0A",
+        "studyName": "paired_kampff",
+        "studySetName": "PAIRED_KAMPFF",
+        "sampleRateHz": 30000.0,
+        "numChannels": 32,
+        "durationSec": 593.248,
+        "numTrueUnits": 1,
+        "spikeSign": -1,
+        "recordingUri": "sha1://b7a850402c22fb51cc477774faf13698d2507dfb/2015_09_03_Pair_9_0A.json",
+        "sortingTrueUri": "sha1://f25a17c5259d7a57d453048d43efcd9de5880e4d/2015_09_03_Pair_9_0A.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=e310cc08479911ecb5f19e67b122c4b676b647d7&channel=spikeforest&label=paired_kampff/2015_09_03_Pair_9_0A%20ground%20truth"
+    },
+    {
+        "name": "2015_09_03_Pair_9_0B",
+        "studyName": "paired_kampff",
+        "studySetName": "PAIRED_KAMPFF",
+        "sampleRateHz": 30000.0,
+        "numChannels": 32,
+        "durationSec": 593.248,
+        "numTrueUnits": 1,
+        "spikeSign": -1,
+        "recordingUri": "sha1://6fb23fae859449d4f379e9752da32b368fba1bc0/2015_09_03_Pair_9_0B.json",
+        "sortingTrueUri": "sha1://f25a17c5259d7a57d453048d43efcd9de5880e4d/2015_09_03_Pair_9_0B.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=a880b171292c7ad1169549435e439de736ca9a3d&channel=spikeforest&label=paired_kampff/2015_09_03_Pair_9_0B%20ground%20truth"
+    },
+    {
+        "name": "c14",
+        "studyName": "paired_kampff",
+        "studySetName": "PAIRED_KAMPFF",
+        "sampleRateHz": 30000.0,
+        "numChannels": 32,
+        "durationSec": 1080.0453666666667,
+        "numTrueUnits": 1,
+        "spikeSign": -1,
+        "recordingUri": "sha1://e506f160e47606bbe2db59b6f2fcb8e6e0e338a4/c14.json",
+        "sortingTrueUri": "sha1://cc697d29fe43391b387e68bd1818983539870bf4/c14.firings_true.json",
+        "viewUrl": "https://figurl.org/f?v=gs://figurl/spikesortingview-1&d=19f83a7e4eec7874cef57834ef2e84a03097fbfd&channel=spikeforest&label=paired_kampff/c14%20ground%20truth"
     }
 ]
