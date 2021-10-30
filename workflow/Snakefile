@@ -1,0 +1,10 @@
+configfile: "config/config.yaml"
+
+include: "rules/get_recording.smk"
+include: "rules/download_recording.smk"
+include: "rules/prepare_spikesortingview_data.smk"
+include: "rules/process_recording.smk"
+include: "rules/make_output.smk"
+
+rule all:
+    input: OUTPUT_MD, OUTPUT_JSON
