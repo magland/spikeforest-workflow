@@ -6,3 +6,13 @@ recordings:
       sorters:
         - mountainsort4
         - spykingcircus
+    -
+      study_set: PAIRED_KAMPFF
+      study: paired_kampff
+      recording: 2014_11_25_Pair_3_0
+      sorters:
+        - mountainsort4
+        - spykingcircus
+        - kilosort2
+        - kilosort3
+        - tridesclous

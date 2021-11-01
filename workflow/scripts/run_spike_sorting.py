@@ -44,6 +44,18 @@ def main():
                 whitening_max_elts=1000,
                 clustering_max_elts=10000
             )
+        elif sorter_name == 'kilosort2':
+            job: hi.Job = sf.kilosort2_wrapper1.run(
+                recording_object=recording_object
+            )
+        elif sorter_name == 'kilosort3':
+            job: hi.Job = sf.kilosort3_wrapper1.run(
+                recording_object=recording_object
+            )
+        elif sorter_name == 'tridesclous':
+            job: hi.Job = sf.tridesclous_wrapper1.run(
+                recording_object=recording_object
+            )
         else:
             raise Exception(f'Unexpected sorter name: {sorter_name}')
         sorting_object = job.wait().return_value
