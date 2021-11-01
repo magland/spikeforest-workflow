@@ -1,10 +1,13 @@
 configfile: "config/config.yaml"
 
-include: "rules/get_recording.smk"
-include: "rules/download_recording.smk"
-include: "rules/prepare_spikesortingview_data.smk"
-include: "rules/process_recording.smk"
-include: "rules/make_output.smk"
+include: "rules/prepare.smk"
+include: "rules/ground_truth_view.smk"
+include: "rules/aggregate_ground_truth_views.smk"
+include: "rules/spike_sorting.smk"
+include: "rules/sorting_view.smk"
+include: "rules/aggregate_sorting_views.smk"
 
 rule all:
-    input: OUTPUT_MD, OUTPUT_JSON
+    input:
+        'data/output/ground_truth_views.json',
+        'data/output/sorting_views.json'

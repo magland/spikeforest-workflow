@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    // The "bash -ic" is needed here so that our ~/.bashrc gets sourced. See: https://github.com/microsoft/vscode/issues/29412
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make dry run",
+            "type": "shell",
+            "command": "snakemake -n -F",
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Make",
+            "type": "shell",
+            "command": "snakemake -p -c1",
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Create DAG",
+            "type": "shell",
+            "command": "snakemake -F --rulegraph | dot -Tpdf > dag.pdf",
+            "presentation": {
+                "clear": true
+            }
+        }
+    ]
+}

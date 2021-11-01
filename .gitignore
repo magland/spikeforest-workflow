@@ -1,4 +1,6 @@
+dag.pdf
 __pycache__
 *.pyc
 .snakemake
 data
+Dockerfile

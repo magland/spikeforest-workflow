@@ -5,19 +5,22 @@ from sortingview.experimental.SpikeSortingView import prepare_spikesortingview_d
 
 def main():
     recording_json_fname = sys.argv[1]
-    output_fname = sys.argv[2]
+    sorting_json_fname = sys.argv[2]
+    output_fname = sys.argv[3]
     with open(recording_json_fname, 'r') as f:
         r = json.load(f)
+    with open(sorting_json_fname, 'r') as f:
+        s = json.load(f)
     recording_uri = r['recordingUri']
-    sorting_true_uri = r['sortingTrueUri']
+    sorting_uri = s['sortingUri']
     R = sv.LabboxEphysRecordingExtractor(recording_uri, download=True)
-    S = sv.LabboxEphysSortingExtractor(sorting_true_uri)
+    S = sv.LabboxEphysSortingExtractor(sorting_uri)
     
     prepare_spikesortingview_data(
         recording=R,
         sorting=S,
         recording_description=r['studyName'] + '/' + r['name'],
-        sorting_description='true',
+        sorting_description='sorting',
         output_file_name=output_fname,
         segment_duration_sec=60 * 30,
         snippet_len=(20, 20),
