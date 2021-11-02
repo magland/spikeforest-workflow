@@ -6,8 +6,8 @@ include: "rules/aggregate_ground_truth_views.smk"
 include: "rules/spike_sorting.smk"
 include: "rules/sorting_view.smk"
 include: "rules/aggregate_sorting_views.smk"
+include: "rules/output.smk"
 
 rule all:
     input:
-        'data/output/ground_truth_views.json',
-        'data/output/sorting_views.json'
+        'output.md'

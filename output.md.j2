@@ -1,0 +1,18 @@
+# SpikeForest workflow output
+
+## Ground truth views
+
+|Recording|Ground truth|
+|-----|-----|
+{% for x in ground_truth_views -%}
+| {{ x.studyName }}/{{ x.name }} | [truth]({{ x.viewUrl }}) |
+{% endfor %}
+
+
+## Sorting views
+
+|Recording|Sorting|
+|-----|-----|
+{% for x in sorting_views -%}
+| {{ x.studyName }}/{{ x.name }} | [{{ x.sorterName }}]({{ x.viewUrl }}) |
+{% endfor %}
